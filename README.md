@@ -1,7 +1,7 @@
 # simple-api-student-system
 System Integration Assignment 3, by Leonard Marveli B. IS 2022
 
-A simple RESTful API built using Flask that allows users to manage student records efficiently. This API provides basic CRUD (Create, Read, Update, Delete) functionality, enabling users to retrieve, add, modify, and remove student information through well-defined endpoints. It serves as an introductory project for understanding API design, HTTP methods, and data handling in Flask. \
+A simple RESTful API built using Flask that allows users to manage student records efficiently. This API provides basic CRUD (Create, Read, Update, Delete) functionality, enabling users to retrieve, add, modify, and remove student information through well-defined endpoints. It serves as an introductory project for understanding API design, HTTP methods, and data handling in Flask.
 
 This project is made for **System Integration – Assignment 3**.
 
