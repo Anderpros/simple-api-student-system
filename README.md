@@ -35,7 +35,7 @@ This project is made for **System Integration – Assignment 3**.
 
 ## Example API Calls (via cURL)
 1. Get all students (using Git Bash) \
-   curl -i http://127.0.0.1:5000/students\
+   curl -i http://127.0.0.1:5000/students \
    **Result:** \
    <img width="302" height="344" alt="image" src="https://github.com/user-attachments/assets/fb25b24f-f7c1-436a-8da9-1f444dc3eea9" />
 
