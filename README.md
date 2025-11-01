@@ -20,32 +20,32 @@ This project is made for **System Integration – Assignment 3**.
 - DELETE /students/<id>   → Delete a student record
 
 ## Setup Instructions
-1. Clone the repository
-   git clone https://github.com/Anderpros/simple-api-student-system.git
+1. Clone the repository \
+   git clone https://github.com/Anderpros/simple-api-student-system.git \
    cd simple-api-student-system
 
-2. Install dependencies
+2. Install dependencies \
    pip install flask
 
-3. Run the app
+3. Run the app \
    python app.py
 
-4. The server runs at
+4. The server runs at \
    http://127.0.0.1:5000
 
 ## Example API Calls (via cURL)
-1. Get all students
+1. Get all students \
    curl -i http://127.0.0.1:5000/students
    
-3. Add a new student
+3. Add a new student \
    curl -i -X POST -H "Content-Type: application/json" \
    -d '{"name": "Justin", "major": "Business", "gpa": 3.9}' \
    http://127.0.0.1:5000/students
    
-5. Update student
+5. Update student \
    curl -i -X PUT -H "Content-Type: application/json" \
    -d '{"major": "Data Science"}' \
    http://127.0.0.1:5000/students/1
    
-7. Delete student
+7. Delete student \
    curl -i -X DELETE http://127.0.0.1:5000/students/2
