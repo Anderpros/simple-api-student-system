@@ -54,14 +54,14 @@ This project is made for **System Integration – Assignment 3**.
    -d '{"major": "Data Science"}' \
    http://127.0.0.1:5000/students/1 \
    **Result:** \
-   <img width="663" height="210" alt="image" src="https://github.com/user-attachments/assets/f6fb7f76-2323-4214-9744-61d2b2e6e709" /> \
+   <img width="664" height="210" alt="image" src="https://github.com/user-attachments/assets/db3eb60f-780a-4024-a940-64028ad1e399" /> \
    **Data Updated:** \
    <img width="246" height="302" alt="image" src="https://github.com/user-attachments/assets/b5cfeab7-bcbe-48b1-92a9-baaa11d8da55" />
    
 4. Delete student \
    curl -i -X DELETE http://127.0.0.1:5000/students/2 \
    **Result:** \
-   <img width="393" height="190" alt="image" src="https://github.com/user-attachments/assets/646b3070-c8bd-43cc-94ff-904ceca4d9e1" /> \
+   <img width="394" height="194" alt="image" src="https://github.com/user-attachments/assets/e199da69-b588-45b4-8fa6-2fc611b6062e" /> \
    **Data Updated:** \
    <img width="249" height="212" alt="image" src="https://github.com/user-attachments/assets/82eb9c5b-0bc3-403a-8ad6-d81f294b9625" />
 
