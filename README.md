@@ -40,18 +40,30 @@ This project is made for **System Integration – Assignment 3**.
    <img width="302" height="344" alt="image" src="https://github.com/user-attachments/assets/fb25b24f-f7c1-436a-8da9-1f444dc3eea9" />
 
    
-3. Add a new student \
+2. Add a new student \
    curl -i -X POST -H "Content-Type: application/json" \
    -d '{"name": "Justin", "major": "Business", "gpa": 3.9}' \
-   http://127.0.0.1:5000/students
+   http://127.0.0.1:5000/students \
+   **Result:** \
+   <img width="577" height="230" alt="image" src="https://github.com/user-attachments/assets/56679593-c9ed-4cd4-9f45-1f2d13bccf1f" /> \
+   **Data Updated:** \
+   <img width="258" height="299" alt="image" src="https://github.com/user-attachments/assets/3204e774-b70e-4584-8269-00cf3f499ff0" />
    
-4. Update student \
+3. Update student \
    curl -i -X PUT -H "Content-Type: application/json" \
    -d '{"major": "Data Science"}' \
-   http://127.0.0.1:5000/students/1
+   http://127.0.0.1:5000/students/1 \
+   **Result:** \
+   <img width="663" height="210" alt="image" src="https://github.com/user-attachments/assets/f6fb7f76-2323-4214-9744-61d2b2e6e709" /> \
+   **Data Updated:** \
+   <img width="246" height="302" alt="image" src="https://github.com/user-attachments/assets/b5cfeab7-bcbe-48b1-92a9-baaa11d8da55" />
    
-5. Delete student \
-   curl -i -X DELETE http://127.0.0.1:5000/students/2
+4. Delete student \
+   curl -i -X DELETE http://127.0.0.1:5000/students/2 \
+   **Result:** \
+   <img width="393" height="190" alt="image" src="https://github.com/user-attachments/assets/646b3070-c8bd-43cc-94ff-904ceca4d9e1" /> \
+   **Data Updated:** \
+   <img width="249" height="212" alt="image" src="https://github.com/user-attachments/assets/82eb9c5b-0bc3-403a-8ad6-d81f294b9625" />
 
 ## Limitations
 - Data is not saved permanently; restarting the server will reset all student records.
