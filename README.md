@@ -49,3 +49,8 @@ This project is made for **System Integration – Assignment 3**.
    
 4. Delete student \
    curl -i -X DELETE http://127.0.0.1:5000/students/2
+
+## Limitations
+- Data is not saved permanently; restarting the server will reset all student records.
+- No user authentication or access control is implemented.
+- This API is for educational and prototyping purposes only, not for production use.
