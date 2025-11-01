@@ -34,20 +34,23 @@ This project is made for **System Integration – Assignment 3**.
    http://127.0.0.1:5000
 
 ## Example API Calls (via cURL)
-1. Get all students \
-   curl -i http://127.0.0.1:5000/students
+1. Get all students (using Git Bash) \
+   curl -i http://127.0.0.1:5000/students\
+   **Result:** \
+   <img width="302" height="344" alt="image" src="https://github.com/user-attachments/assets/fb25b24f-f7c1-436a-8da9-1f444dc3eea9" />
+
    
-2. Add a new student \
+3. Add a new student \
    curl -i -X POST -H "Content-Type: application/json" \
    -d '{"name": "Justin", "major": "Business", "gpa": 3.9}' \
    http://127.0.0.1:5000/students
    
-3. Update student \
+4. Update student \
    curl -i -X PUT -H "Content-Type: application/json" \
    -d '{"major": "Data Science"}' \
    http://127.0.0.1:5000/students/1
    
-4. Delete student \
+5. Delete student \
    curl -i -X DELETE http://127.0.0.1:5000/students/2
 
 ## Limitations
