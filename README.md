@@ -37,15 +37,15 @@ This project is made for **System Integration – Assignment 3**.
 1. Get all students \
    curl -i http://127.0.0.1:5000/students
    
-3. Add a new student \
+2. Add a new student \
    curl -i -X POST -H "Content-Type: application/json" \
    -d '{"name": "Justin", "major": "Business", "gpa": 3.9}' \
    http://127.0.0.1:5000/students
    
-5. Update student \
+3. Update student \
    curl -i -X PUT -H "Content-Type: application/json" \
    -d '{"major": "Data Science"}' \
    http://127.0.0.1:5000/students/1
    
-7. Delete student \
+4. Delete student \
    curl -i -X DELETE http://127.0.0.1:5000/students/2
