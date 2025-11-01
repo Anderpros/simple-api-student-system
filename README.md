@@ -13,11 +13,11 @@ This project is made for **System Integration – Assignment 3**.
 - Delete student record
 
 ## API Endpoints (Method /Endpoint → Description)
-- GET /students           → Retrieve all student records
-- GET /students/<id>      → Retrieve a specific student record by ID
-- POST /students          → Add a new student record
-- PUT /students/<id>      → Update an existing student record
-- DELETE /students/<id>   → Delete a student record
+- GET `/students`           → Retrieve all student records
+- GET `/students/<id>`      → Retrieve a specific student record by ID
+- POST `/students`          → Add a new student record
+- PUT `/students/<id>`      → Update an existing student record
+- DELETE `/students/<id>`   → Delete a student record
 
 ## Setup Instructions
 1. Clone the repository \
