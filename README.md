@@ -46,7 +46,7 @@ This project is made for **System Integration – Assignment 3**.
    http://127.0.0.1:5000/students \
    **Result:** \
    <img width="577" height="230" alt="image" src="https://github.com/user-attachments/assets/56679593-c9ed-4cd4-9f45-1f2d13bccf1f" /> \
-   **Data Updated:** \
+   **Updated Data:** \
    <img width="258" height="299" alt="image" src="https://github.com/user-attachments/assets/3204e774-b70e-4584-8269-00cf3f499ff0" />
    
 3. Update student \
@@ -55,14 +55,14 @@ This project is made for **System Integration – Assignment 3**.
    http://127.0.0.1:5000/students/1 \
    **Result:** \
    <img width="664" height="210" alt="image" src="https://github.com/user-attachments/assets/db3eb60f-780a-4024-a940-64028ad1e399" /> \
-   **Data Updated:** \
+   **Updated Data:** \
    <img width="246" height="302" alt="image" src="https://github.com/user-attachments/assets/b5cfeab7-bcbe-48b1-92a9-baaa11d8da55" />
    
 4. Delete student \
    curl -i -X DELETE http://127.0.0.1:5000/students/2 \
    **Result:** \
    <img width="394" height="194" alt="image" src="https://github.com/user-attachments/assets/e199da69-b588-45b4-8fa6-2fc611b6062e" /> \
-   **Data Updated:** \
+   **Updated Data:** \
    <img width="249" height="212" alt="image" src="https://github.com/user-attachments/assets/82eb9c5b-0bc3-403a-8ad6-d81f294b9625" />
 
 ## Limitations
